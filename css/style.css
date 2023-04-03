@@ -19,15 +19,12 @@ body {
   max-width: 50%;
 }
 
-.logo {
-  max-width: 95%;
-  min-width: 500px;
-  height: 200px;
-  transition: height 4s ease-in;
+.error {
+  max-width: 50%;
 }
 
-.logo:hover {
-  height: 300px;
+.logo {
+  max-width: 75%;
 }
 
 .album {
@@ -73,14 +70,14 @@ nav li {
 }
 
 nav a {
-  color: #f461f2;
+  color: #f528a9;
   font-size: 17px;
   padding: 10px 0;
   opacity: 80%;
 }
 
 nav a.selected {
-  color: #f461f2;
+  color: #f528a9;
   opacity: 80%;
 }
 
@@ -109,7 +106,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 @media (max-width: 991px) {
@@ -121,19 +118,16 @@ footer {
 }
 
 @media (max-width: 500px) {
-  /* body {
+  body {
     max-height: 400px;
-  } */
+  }
 
   .main {
     max-height: 100vh;
   }
 
   .logo {
-    max-width: 95%;
-    min-width: 300px;
-    height: 100px;
-    transition: height 4s ease-in;
+    max-width: 90%;
   }
 
   nav li {
